@@ -302,6 +302,7 @@ body {
   height: 40vh;
   background-size: cover;
   background-position: center;
+
 }
 
 #banner h4 {
@@ -323,6 +324,83 @@ body {
   background: #088178;
   color: #fff;
 }
+
+#competition{
+  background-image: url("img/banner/b3.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#participants {
+    /* height: 150px; */
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#participants .box {
+    display: flex;
+    align-items: center;
+}
+
+#competition .box .champion {
+  width: 30%;
+  min-width: 25px;
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 10px;
+  margin: 3%;
+  padding: 4px;
+}
+
+#competition .box .champion .bronze {
+    background-color: #CD7F32;
+}
+#competition .box .champion .silver {
+    background-color: #C0C0C0;
+}
+#competition .box .champion .gold {
+    background-color: #FFD700;
+}
+
+#competition .champion img {
+  width: 100px;
+  padding: 5px 5px;
+
+}
+
+#competition .champion .des {
+  text-align: start;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#competition .champion .des h5 {
+  color: #606063;
+  font-size: 15px;
+  
+}
+
 
 #sm-banner {
   display: flex;
